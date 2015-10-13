@@ -1,0 +1,5 @@
+markdown: redcarpet
+baseurl: ''
+permalink: none
+exclude: [bower_components, node_modules, bower.json, package.json, gruntfile.js]
+#exclude: [bower_components, node_modules, bower.json, package.json, gruntfile.js, location, team]

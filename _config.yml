@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /bibleQuiz
+permalink: none
+exclude: [bower_components, node_modules]

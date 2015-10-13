@@ -1,0 +1,32 @@
+{
+  "name": "Bible Quiz",
+  "version": "0",
+  "homepage": "https://github.com/felixsusanto/bibleQuiz",
+  "authors": [
+    "Felix Susanto <felix.susanto2000@gmail.com>"
+  ],
+  "description": "Bible quiz event for amoreDio",
+  "main": "index.html",
+  "keywords": [
+    "wds"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.3"
+  },
+  "devDependencies": {
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git",
+    "imagesloaded": "~3.1.8",
+    "enllax.js": "mmkjony/enllax.js#~1.1.0",
+    "animate.css": "daneden/animate.css#~3.4.0",
+    "waypoints": "~4.0.0"
+  }
+}
