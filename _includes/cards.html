@@ -1,0 +1,26 @@
+<section id="cards" class="cards">
+  <h1 class="text-center">Cards</h1>
+  <p class="description lead">
+    Power up cards dan penjelasannya dibawah :
+  </p>
+  <div class="thumbnails">
+    <div class="control">
+      <a href="#" class="btn btn-primary" data-filter="*">show all</a>
+      <a href="#" class="btn btn-primary" data-filter=".taichi">Taichi Master</a>
+      <a href="#" class="btn btn-primary" data-filter=".insurance">Insurance Cover</a>
+      <a href="#" class="btn btn-primary" data-filter=".lobang">Lobang King</a>
+      <a href="#" class="btn btn-primary" data-filter=".recycle">Recycle Bin</a>
+      <a href="#" class="btn btn-primary" data-filter=".kiasu">Kiasu Queen</a>
+      <a href="#" class="btn btn-primary" data-filter=".abeng">Abeng Gangster</a>
+    </div>
+    <div class="grid">
+      {% for card in site.data.cards %}
+        <div class="element-item {{card.classCategory}}">
+          <a href="{{card.hires}}" data-lightbox="example-1" data-title="{{card.caption}}"><!-- img/card/hires/ -->
+            <img src="{{card.thumb}}" alt="A Placeholder image" /><!-- img/cards/thumbs/ -->
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section><!--/.featured-works-->

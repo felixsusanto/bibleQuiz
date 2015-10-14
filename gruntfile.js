@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     },
     shell: {
       jekyllServe:{
-        command: "jekyll serve --baseurl ''"
+        command: "jekyll serve --baseurl '' --port 5000"
       },
       jekyllBuild:{
         command: 'jekyll build --config _config-dev.yml'
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
     open: {
       all: {
         // Gets the port from the connect configuration
-        path: 'http://localhost:4000/index.html'
+        path: 'http://localhost:5000/index.html'
       }
     }
   });

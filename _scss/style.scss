@@ -1,10 +1,16 @@
+@import "cards";
+
 body{
   font-family: 'Lato','Open Sans', sans-serif;
-  background: url('../img/bbq-02.png') no-repeat 0 100%;
-  background-size: cover;
+  background: url('../img/bg-03.png') no-repeat 0 50%;
+  background-size: auto;
   height:100vh;
 }
 
+.logo{
+  margin-top:30px;
+  margin-bottom:30px;
+}
 
 .modal-dialog{
   width: 60%;

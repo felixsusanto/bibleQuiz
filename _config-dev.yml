@@ -1,5 +1,6 @@
 markdown: redcarpet
 baseurl: ''
+port: 5000
 permalink: none
 exclude: [bower_components, node_modules, bower.json, package.json, gruntfile.js]
 #exclude: [bower_components, node_modules, bower.json, package.json, gruntfile.js, location, team]
