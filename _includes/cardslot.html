@@ -1,0 +1,25 @@
+<div class="cardslot">
+  <div class="form-inline">
+    <div class="form-group">
+      <select name="one" class="form-control">
+        <option value="">Card Slot 1</option>
+        {% for card in site.data.cards %}
+        <option value="{{card.shortDesc}}">{{card.name}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="form-group">
+      <select name="two" class="form-control">
+        <option value="">Card Slot 2</option>
+        {% for card in site.data.cards %}
+        <option value="{{card.shortDesc}}">{{card.name}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <span class="info">
+      <span class="one"></span>
+      <span class="two"></span>
+      <span class="total"></span>
+    </span>
+  </div>
+</div>

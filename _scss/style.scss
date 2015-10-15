@@ -2,8 +2,11 @@
 
 body{
   font-family: 'Lato','Open Sans', sans-serif;
-  background: url('../img/bg-03.png') no-repeat 0 50%;
-  background-size: auto;
+  background-image:url(../img/bg-03.png),
+                   url(../img/bg-04.png);
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, auto;
+  background-position:0 100%, top right;
   height:100vh;
 }
 
@@ -35,13 +38,10 @@ body{
   }
 }
 
-.choices{
+.multiplechoices{
   list-style-type:lower-latin;
-  li.checkbox{
+  label{
     display:list-item;
-    label{
-      vertical-align: top;
-    }
   }
   input[type=checkbox]{
     display:none;
@@ -73,4 +73,19 @@ body{
 
 .type{
   text-transform: uppercase;
+}
+
+.info{
+  display:block;
+  margin-top: 10px;
+  .one,.two{
+    color:#fff;
+    display:inline-block;
+    background:orange;
+    padding:5px;
+    border-radius:3px;
+    &:empty{
+      padding:0;
+    }
+  }
 }
