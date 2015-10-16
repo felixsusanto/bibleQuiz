@@ -1,0 +1,34 @@
+#question-essay.yml
+---
+#1
+- question: "Ini essay loh?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#2
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#3
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#4
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#5
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#6
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}

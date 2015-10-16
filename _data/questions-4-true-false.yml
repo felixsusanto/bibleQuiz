@@ -1,0 +1,48 @@
+#question-true-false.yml
+#36 + 9 = 45
+---
+#37
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#38
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#39
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#40
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#41
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#42
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#43
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#44
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#45
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}

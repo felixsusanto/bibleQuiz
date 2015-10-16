@@ -1,0 +1,83 @@
+#question-blanks.yml
+---
+#7
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#8
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#9
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#10
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#11
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#12
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#13
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#14
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#15
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#16
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#17
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#18
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#19
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#20
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
+#21
+- question: "Ini bener apa salah?"
+  choices: 
+  - {option: "Yang ini salah", class: false}
+  - {option: "Yang ini bener", class: true}
