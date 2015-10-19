@@ -1,34 +1,18 @@
 #question-essay.yml
+#2 bonus question - 3, 5
 ---
 #1
-- question: "Ini essay loh?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
+- img: "SaintMotherTheodoreGuerinPressPhoto.jpg"
+  question: "Jelaskan siapa ini dan mengapa?"
 #2
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Ini adalah pertanyaan essay, kenapa begini?"
 #3
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Ini adalah pertanyaan essay, kenapa begini?"
+  bonus: "yes"
 #4
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Ini adalah pertanyaan essay, kenapa begini?"
 #5
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Ini adalah pertanyaan essay, kenapa begini?"
+  bonus: "yes"
 #6
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Ini adalah pertanyaan essay, kenapa begini?"

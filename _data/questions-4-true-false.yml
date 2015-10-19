@@ -1,8 +1,9 @@
 #question-true-false.yml
-#36 + 9 = 45
+#5 bonus: 
 ---
 #37
 - question: "Ini bener apa salah?"
+  bonus: "yes"
   choices: 
   - {option: "Yang ini salah", class: false}
   - {option: "Yang ini bener", class: true}
@@ -13,6 +14,7 @@
   - {option: "Yang ini bener", class: true}
 #39
 - question: "Ini bener apa salah?"
+  bonus: "yes"
   choices: 
   - {option: "Yang ini salah", class: false}
   - {option: "Yang ini bener", class: true}
@@ -23,6 +25,7 @@
   - {option: "Yang ini bener", class: true}
 #41
 - question: "Ini bener apa salah?"
+  bonus: "yes"
   choices: 
   - {option: "Yang ini salah", class: false}
   - {option: "Yang ini bener", class: true}
@@ -38,11 +41,13 @@
   - {option: "Yang ini bener", class: true}
 #44
 - question: "Ini bener apa salah?"
+  bonus: "yes"
   choices: 
   - {option: "Yang ini salah", class: false}
   - {option: "Yang ini bener", class: true}
 #45
 - question: "Ini bener apa salah?"
+  bonus: "yes"
   choices: 
   - {option: "Yang ini salah", class: false}
   - {option: "Yang ini bener", class: true}

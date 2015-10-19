@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bible Quiz 2015</title>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/css/lightbox.min.css'>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  {% if page.url contains "answer" %}
+    <style>
+      .hide{
+        display:block!important;
+      }
+    </style>
+  {% endif %}
 </head>
 <body>
   {{content}}

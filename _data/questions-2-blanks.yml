@@ -1,83 +1,53 @@
-#question-blanks.yml
+# question-blanks.yml
+# 4 bonus question - 8, 18, 12, 9
 ---
 #7
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
+- img: "SaintMotherTheodoreGuerinPressPhoto.jpg"
+  question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #8
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
+  bonus: "yes"
 #9
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
+  bonus: "yes"
 #10
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #11
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #12
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
+  bonus: "yes"
 #13
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #14
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #15
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #16
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #17
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #18
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
+  bonus: "yes"
 #19
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #20
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"
 #21
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- question: "Isilah titik ini dengan jawaban ..."
+  answer: "jawaban"

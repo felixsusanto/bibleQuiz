@@ -6,40 +6,47 @@
   caption: "Lempar pertanyaan ke kelompok lain, lari dari kemungkinan penalti karena ga bisa jawab soal"
   classCategory: etc
   name: Taichi Master
+  effect: 
   shortDesc: lempar pertanyaan
 - thumb: 82f27a134e01fe67e8b2348cec34675d.jpg
   hires: 82f27a134e01fe67e8b2348cec34675d.jpg 
   caption: "Anulir penalti kalo ga bisa jawab soal, kalo jawaban bener total point dikurangi 20% (misal: 100 ->80)"
   classCategory: score
   name: Insurance Cover
+  effect: retain
   shortDesc: 0.8x - no penalty
 - thumb: How-to-Become-a-Saint-inline1-1210538.jpg
   hires: How-to-Become-a-Saint-inline1-1210538.jpg 
   caption: "Ambil 2 kartu random dari pool kartu"
   classCategory: card
   name: Lobang King
+  effect: 
   shortDesc: 2 random card from pool
 - thumb: our_lady_of_mount_caramel-e1345418081481.jpg
   hires: our_lady_of_mount_caramel-e1345418081481.jpg 
   caption: "Pilih 1 kartu dari kartu yang udah dipake"
   classCategory: card
   name: Recycle Bin
+  effect: 
   shortDesc: pick 1 used card
 - thumb: saintveronica_stainedglass_300x450-200x300.jpg
   hires: saintveronica_stainedglass_300x450-200x300.jpg
   caption: "Kesempatan untuk jawab 2 kali di soal itu"
   classCategory: etc
   name: Kiasu Queen
+  effect: retain
   shortDesc: jawab 2x
 - thumb: SaintMotherTheodoreGuerinPressPhoto.jpg
   hires: SaintMotherTheodoreGuerinPressPhoto.jpg 
   caption: "Buang 1 kartu random kelompok lain"
   classCategory: card
   name: Abeng Gangster
+  effect: 
   shortDesc: eliminate 1 random card from other team
 - thumb: 200px-Pietro_Novelli_Our_Lady_of_Carmel_and_Saints.JPG
   hires: 200px-Pietro_Novelli_Our_Lady_of_Carmel_and_Saints.JPG 
   caption: "Double point untuk soal ini, double penalty kalo salah"
   classCategory: score
   name: Upsize Boss
+  effect: retain
   shortDesc: 2x the score/penalty

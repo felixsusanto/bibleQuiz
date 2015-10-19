@@ -1,0 +1,149 @@
+$btn-size:65px;
+#last-round{
+  .modal-dialog{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    @media(min-width:481px){
+      width:90%;
+    }
+    @media(min-width:768px){
+      width:80%;
+    }
+    @media(min-width:992px){
+      width:70%;
+    }
+    @media(min-width:1200px){
+      width:60%;
+    }
+  }
+
+  .modal-content{
+    box-shadow:none;
+    border-radius:0;
+    background:transparent;
+    border-width:0;
+  }
+  .modal-body{
+    color:#fff;
+    font-size:26px;
+    text-align: left; 
+  }
+}
+.modal-backdrop {
+  background-color: #000000;
+  &.in{
+    opacity:0.8;
+  }
+}
+.multiplechoices{
+  list-style-type:lower-latin;
+  label{
+    display:list-item;
+  }
+  input[type=checkbox]{
+    display:none;
+  }
+  input[type=checkbox].true:checked + span{
+    color:$brand-success;
+  }
+  input[type=checkbox].false:checked + span{
+    color:$brand-danger;
+    text-decoration: line-through;
+  }
+}
+
+.chance-options{
+  ul{
+    columns:3;
+    color:#fff;
+  }
+  li{
+    font-size: 1.3em;
+  }
+  li:first-child{
+    margin-top: 0;
+  }
+  input[type=checkbox]{
+    margin-top:6px;
+  }
+}
+
+.type{
+  text-transform: uppercase;
+}
+
+.info{
+  display:block;
+  margin-top: 10px;
+  font-size: 18px;
+  .one,.two{
+    color:#fff;
+    display:inline-block;
+    background:$brand-primary;
+    padding:5px 10px;
+    border-radius:3px;
+    &:empty{
+      padding:0;
+    }
+  }
+}
+
+#last-round .btn{
+  border-radius:50%;
+  padding:0;
+  line-height: $btn-size - 4;
+  width:$btn-size;
+  @media(max-width:640px){
+    line-height: ($btn-size*0.8) - 4;
+    width:$btn-size*0.8;
+  }
+}
+
+#last-round>br{
+  @media(max-width:510px){
+    display:none;
+  }
+}
+
+.retain{
+  background: $brand-success !important;
+}
+
+
+.passed{
+  position: relative;
+  overflow: hidden;
+  &:after{
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    display:block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    background:inherit;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50px;
+    line-height: 50px;
+    border-radius:50%;
+    font-size: 1.6em
+  }
+}
+
+.question>img{
+  padding-right:20px;
+}
+
+label:hover{
+  cursor:pointer;
+}
+
+#bonus{
+  font-size: 1.6em;
+  .modal-body{
+    text-align: left;
+  }
+}
+
+.cardslot{
+  text-align: center;
+}

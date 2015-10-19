@@ -1,119 +1,190 @@
-<hr>
-<h1 class="text-center">Ronde Terakhir</h1>
-<p class="description lead">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ea, consequatur, architecto quo modi amet ex sed culpa porro voluptatem eaque molestiae maxime officia neque inventore aperiam rerum. Labore, itaque? :
-</p>
-{% for question in site.data.questions-1-essay %}
-<a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
-<div class="modal fade" id="soal{{forloop.index0 | plus: 1}}">
+<section id="last-round"><hr>
+  <h1 class="text-center">Ronde Terakhir</h1>
+  <p class="description lead">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ea, consequatur, architecto quo modi amet ex sed culpa porro voluptatem eaque molestiae maxime officia neque inventore aperiam rerum. Labore, itaque? :
+  </p>
+  {% for question in site.data.questions-1-essay %}
+  <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
+  <div class="modal fade" id="soal{{forloop.index0 | plus: 1}}">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          {% if question.bonus == "yes" %}
+            {% include bonusround.html %}
+          {% endif %}
+          <span class="score pull-right" data-score="40">40</span> 
+          <h4 class="title">
+            <span class="id">{{forloop.index0 | plus: 1}}.</span> 
+            <span class="type">Essay/Open Ended Question</span>
+          </h4>
+          <p class="question clearfix">
+            {% if question.img %}
+              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% endif %}
+            {{question.question}}
+          </p>
+          <hr>
+          <p>And the judge says, your answer is…</p>
+          <ol class="multiplechoices">
+            <label>
+              <input type="checkbox" value="" class="true">
+              <span><span class="label label-danger">+0</span> Acceptable</span>
+            </label>
+            <label>
+              <input type="checkbox" value="" class="true">
+              <span><span class="label label-warning">+10</span> Good</span>
+            </label>
+            <label>
+              <input type="checkbox" value="" class="true">
+              <span><span class="label label-success">+20</span> Satisfactory</span>
+            </label>
+          </ol>
+          {% include cardslot.html %}
+        </div>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+  {% include utilities/pyramid-breaks-1.html %}
+  
+  {% endfor %}
+  
+  {% for question in site.data.questions-2-blanks %}
+  <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 7}}">{{forloop.index0 | plus: 7}}</a>
+  <div class="modal fade" id="soal{{forloop.index0 | plus: 7}}">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          {% if question.bonus == "yes" %}
+            {% include bonusround.html %}
+          {% endif %}
+          <span class="scored pull-right" data-score="20">20</span> 
+          <h4 class="title">
+            <span class="id">{{forloop.index0 | plus: 7}}.</span> 
+            <span class="type">Fill in the blanks</span>
+          </h4>
+          <p class="question clearfix">
+            {% if question.img %}
+              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% endif %}
+            {{question.question}}
+          </p>
+          <p class="hide"><span class="label label-success">{{question.answer}}</span></p>
+          <hr>
+          <p>And the judge says, your answer is…</p>
+          <ol class="multiplechoices">
+            <label>
+              <input type="checkbox" value="" class="false">
+              <span>Incorrect!</span>
+            </label>
+            <label>
+              <input type="checkbox" value="" class="true">
+              <span>Correct!</span>
+            </label>
+          </ol>
+          
+          {% include cardslot.html %}
+        </div>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+  {% include utilities/pyramid-breaks-2.html %}
+  
+  {% endfor %}
+  
+  {% for question in site.data.questions-3-MCQ %}
+  <a href="#" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
+  <div class="modal fade" id="soal{{forloop.index0 | plus: 22}}">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          {% if question.bonus == "yes" %}
+            {% include bonusround.html %}
+          {% endif %}
+          <span class="score pull-right" data-score="10">10</span> 
+          <h4 class="title">
+            <span class="id">{{forloop.index0 | plus: 22}}.</span> 
+            <span class="type">Multiple Choice Question</span>
+          </h4>
+          <p class="question clearfix">
+            {% if question.img %}
+              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% endif %}
+            {{question.question}}
+          </p>
+          <ol class="multiplechoices">
+            {% for choice in question.choices%}
+              <label>
+                <input type="checkbox" value="" class="{{choice.class}}">
+                <span>{{choice.option}}</span>
+              </label>
+            {% endfor %}
+          </ol>
+          {% include cardslot.html %}
+        </div>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+  {% include utilities/pyramid-breaks-3.html %}
+  
+  {% endfor %}
+  
+  
+  {% for question in site.data.questions-4-true-false %}
+  <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
+  <div class="modal fade" id="soal{{forloop.index0 | plus: 37}}">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          {% if question.bonus == "yes" %}
+            {% include bonusround.html %}
+          {% endif %}
+          <span class="score pull-right" data-score="5">5</span> 
+          <h4 class="title">
+            <span class="id">{{forloop.index0 | plus: 37}}.</span> 
+            <span class="type">True of False</span>
+          </h4>
+          <p class="question clearfix">
+            {% if question.img %}
+              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% endif %}
+            {{question.question}}
+          </p>
+          <ol class="multiplechoices">
+            {% for choice in question.choices%}
+              <label>
+                <input type="checkbox" value="" class="{{choice.class}}">
+                <span>{{choice.option}}</span>
+              </label>
+            {% endfor %}
+          </ol>
+          {% include cardslot.html %}
+        </div>
+      </div>
+    </div>
+  </div><!-- /.modal -->
+  {% endfor %}
+</section>
+
+<div class="modal fade" id="bonus">
   <div class="modal-dialog">
     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Bonus List</h4>
+      </div>
       <div class="modal-body">
-        <span class="score pull-right" data-score="40">40</span> 
-        <h4 class="title">
-          <span class="id">{{forloop.index0 | plus: 1}}.</span> 
-          <span class="type">Essay/Open Ended Question</span>
-        </h4>
-        <p class="question">{{question.question}}</p>
-        <ol class="multiplechoices">
-          {% for choice in question.choices%}
-            <label>
-              <input type="checkbox" value="" class="{{choice.class}}">
-              <span>{{choice.option}}</span>
-            </label>
-          {% endfor %}
+        <ol>
+          <li>Main satu giliran lagi</li>
+          <li>Ambil satu kartu yang sudah dipakai dari tim sendiri</li>
+          <li>Absolusi (reset score jadi 0 kalau score total minus)</li>
+          <li>Bonus 50% dari soal ini</li>
+          <li>Ambil satu kartu random dari pool</li>
+          <li>Charity (beri kesempatan ini ke anggota lain)</li>
         </ol>
       </div>
-      {% include cardslot.html %}
-    </div>
-  </div>
-</div><!-- /.modal -->
-{% include utilities/pyramid-breaks-1.html %}
-
-{% endfor %}
-
-{% for question in site.data.questions-2-blanks %}
-<a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 7}}">{{forloop.index0 | plus: 7}}</a>
-<div class="modal fade" id="soal{{forloop.index0 | plus: 7}}">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <span class="score pull-right" data-score="20">20</span> 
-        <h4 class="title">
-          <span class="id">{{forloop.index0 | plus: 7}}.</span> 
-          <span class="type">Fill in the blanks</span>
-        </h4>
-        <p class="question">{{question.question}}</p>
-        <ol class="multiplechoices">
-          {% for choice in question.choices%}
-            <label>
-              <input type="checkbox" value="" class="{{choice.class}}">
-              <span>{{choice.option}}</span>
-            </label>
-          {% endfor %}
-        </ol>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-      {% include cardslot.html %}
-    </div>
-  </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-{% include utilities/pyramid-breaks-2.html %}
-
-{% endfor %}
-
-{% for question in site.data.questions-3-MCQ %}
-<a href="#" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
-<div class="modal fade" id="soal{{forloop.index0 | plus: 22}}">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <span class="score pull-right" data-score="10">10</span> 
-        <h4 class="title">
-          <span class="id">{{forloop.index0 | plus: 22}}.</span> 
-          <span class="type">Multiple Choice Question</span>
-        </h4>
-        <p class="question">{{question.question}}</p>
-        <ol class="multiplechoices">
-          {% for choice in question.choices%}
-            <label>
-              <input type="checkbox" value="" class="{{choice.class}}">
-              <span>{{choice.option}}</span>
-            </label>
-          {% endfor %}
-        </ol>
-      </div>
-      {% include cardslot.html %}
-    </div>
-  </div>
-</div><!-- /.modal -->
-{% include utilities/pyramid-breaks-3.html %}
-
-{% endfor %}
-
-
-{% for question in site.data.questions-4-true-false %}
-<a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
-<div class="modal fade" id="soal{{forloop.index0 | plus: 37}}">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-        <span class="score pull-right" data-score="5">5</span> 
-        <h4 class="title">
-          <span class="id">{{forloop.index0 | plus: 37}}.</span> 
-          <span class="type">True of False</span>
-        </h4>
-        <p class="question">{{question.question}}</p>
-        <ol class="multiplechoices">
-          {% for choice in question.choices%}
-            <label>
-              <input type="checkbox" value="" class="{{choice.class}}">
-              <span>{{choice.option}}</span>
-            </label>
-          {% endfor %}
-        </ol>
-      </div>
-      {% include cardslot.html %}
-    </div>
-  </div>
-</div><!-- /.modal -->
-{% endfor %}

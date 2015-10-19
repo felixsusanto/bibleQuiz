@@ -29,11 +29,33 @@ $(document).ready(function(){
     var calculate = totalChoices-totalIncorrect==1?0:Math.round(originalScore*(1-(totalIncorrect/(totalChoices-1))));
     $($this.prevAll('.score').get(0)).text(calculate);
   });
-  $('select[name="one"]').on('change', function() {
-    $(this).closest('.form-group').siblings('.info').children('.one').text( this.value );
+
+  $('.multiplechoices .true').on('click',function(e){
+    var btnHook = $(this).closest('.modal').prev().get(0);
+    if($(this).is(':checked')){
+      $(btnHook).addClass('passed');
+    } else {
+      $(btnHook).removeClass('passed');
+    }
+  });
+
+  $('select[name="one"]').on('change', function(e) {
+    var oneHook = $(this).closest('.form-group').siblings('.info').children('.one');
+    if($(this).children('option[data-retain="retain"]').is(':selected')){
+      oneHook.addClass('retain');
+    } else {
+      oneHook.removeClass('retain');
+    }
+    oneHook.text( this.value );
   });
 
   $('select[name="two"]').on('change', function() {
-    $(this).closest('.form-group').siblings('.info').children('.two').text( this.value );
+    var twoHook = $(this).closest('.form-group').siblings('.info').children('.two');
+    if($(this).children('option[data-retain="retain"]').is(':selected')){
+      twoHook.addClass('retain');
+    } else {
+      twoHook.removeClass('retain');
+    }
+    twoHook.text( this.value );
   });
 });

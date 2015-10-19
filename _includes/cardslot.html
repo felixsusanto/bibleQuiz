@@ -4,7 +4,7 @@
       <select name="one" class="form-control">
         <option value="">Card Slot 1</option>
         {% for card in site.data.cards %}
-        <option value="{{card.shortDesc}}">{{card.name}}</option>
+        <option value="{{card.shortDesc}}" data-retain="{{card.effect}}">{{card.name}}</option>
         {% endfor %}
       </select>
     </div>
@@ -12,7 +12,7 @@
       <select name="two" class="form-control">
         <option value="">Card Slot 2</option>
         {% for card in site.data.cards %}
-        <option value="{{card.shortDesc}}">{{card.name}}</option>
+        <option value="{{card.shortDesc}}" data-retain="{{card.effect}}">{{card.name}}</option>
         {% endfor %}
       </select>
     </div>
