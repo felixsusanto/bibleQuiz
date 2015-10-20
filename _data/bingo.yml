@@ -1,0 +1,113 @@
+#question-MCQ.yml
+# 4 bonus - 23, 33, 35, 29
+---
+#22
+- img: "SaintMotherTheodoreGuerinPressPhoto.jpg"
+  question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#23
+- question: "Kenapa begini? Kenapa begitu?"
+  bonus: "yes"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#24
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#25
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#26
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#27
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#28
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#29
+- question: "Kenapa begini? Kenapa begitu?"
+  bonus: "yes"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#30
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#31
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#32
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#33
+- question: "Kenapa begini? Kenapa begitu?"
+  bonus: "yes"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#34
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#35
+- question: "Kenapa begini? Kenapa begitu?"
+  bonus: "yes"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}
+#36
+- question: "Kenapa begini? Kenapa begitu?"
+  choices: 
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Karena begini begitu", class: false}
+  - {option: "Yang ini bener", class: true}

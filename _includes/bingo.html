@@ -1,0 +1,37 @@
+<section id="bingo">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      {% for question in site.data.bingo %}
+      <div class="item {% if forloop.index == 1 %}active{% endif %}">
+        <div class="question-container">
+          <p class="question clearfix">
+            {% if question.img %}
+              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% endif %}
+            {{question.question}}
+          </p>
+          <ol class="multiplechoices">
+            {% for choice in question.choices%}
+              <label>
+                <input type="checkbox" value="" class="{{choice.class}}">
+                <span>{{choice.option}}</span>
+              </label>
+            {% endfor %}
+          </ol>
+        </div>
+      </div>
+      {% endfor %} 
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="fa fa-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="fa fa-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
