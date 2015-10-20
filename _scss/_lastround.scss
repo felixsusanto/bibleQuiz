@@ -26,7 +26,18 @@ $btn-size:65px;
   .modal-body{
     color:#fff;
     font-size:26px;
-    text-align: left; 
+    text-align: left;
+    @media(max-width:580px){
+      font-size:16px;
+    }
+    >.alert{
+      margin-bottom:0;
+      border-bottom-right-radius:0;
+      border-bottom-left-radius:0;
+    }
+    hr{
+      border-color:#636363;
+    }
   }
   .modal-footer{
     border:none;
@@ -38,6 +49,57 @@ $btn-size:65px;
     opacity:0.8;
   }
 }
+
+
+
+.title{
+  position: relative;
+  padding:30px;
+  padding-right:80px;
+  margin-top: 0;
+  &:before{
+    content:"";
+    display:block;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background:rgba(0,0,0,0.5);
+  }
+  span{
+    position: relative;
+  }
+  .score,.scored{
+    position: absolute;
+    right:15px;
+    top:50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    background:$brand-warning;
+    border-radius:50%;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+  }
+  &.bg1{
+    background: url(../img/bg/1.png) 50% 0 no-repeat;
+    background-size: cover;
+  }
+  &.bg2{
+    background: url(../img/bg/2.png) 50% 0 no-repeat;
+    background-size: cover;
+  }
+  &.bg3{
+    background: url(../img/bg/3.png) 50% 0 no-repeat;
+    background-size: cover;
+  }
+  &.bg4{
+    background: url(../img/bg/4.png) 50% 0 no-repeat;
+    background-size: cover;
+  }
+}
+
 .multiplechoices{
   list-style-type:lower-latin;
   label{
@@ -91,7 +153,7 @@ $btn-size:65px;
   }
 }
 
-#last-round .btn{
+#last-round .btnRound{
   border-radius:50%;
   padding:0;
   line-height: $btn-size - 4;
@@ -150,3 +212,19 @@ label:hover{
 .cardslot{
   text-align: center;
 }
+
+#bonus{
+  .modal-header{
+    color:#fff;
+    background:$brand-warning;
+    border-bottom:none;
+  }
+  .dice{
+    height: 250px;
+    background:url(../img/bg/dice.png) no-repeat 50% 0;
+    background-size:cover;
+    margin:-20px;
+    margin-bottom:20px;
+  }  
+}
+

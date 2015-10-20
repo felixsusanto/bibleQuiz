@@ -4,7 +4,7 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ea, consequatur, architecto quo modi amet ex sed culpa porro voluptatem eaque molestiae maxime officia neque inventore aperiam rerum. Labore, itaque? :
   </p>
   {% for question in site.data.questions-1-essay %}
-  <a href="#" class="btn btn-success btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
+  <a href="#" class="btn btn-success btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
   <div class="modal fade" id="soal{{forloop.index0 | plus: 1}}">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -12,8 +12,8 @@
           {% if question.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
-          <span class="score pull-right" data-score="40">40</span> 
-          <h4 class="title">
+          <h4 class="title bg4">
+            <span class="score" data-score="40">40</span> 
             <span class="id">{{forloop.index0 | plus: 1}}.</span> 
             <span class="type">Essay/Open Ended Question</span>
           </h4>
@@ -52,7 +52,7 @@
   {% endfor %}
   
   {% for question in site.data.questions-2-blanks %}
-  <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 7}}">{{forloop.index0 | plus: 7}}</a>
+  <a href="#" class="btn btn-primary btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 7}}">{{forloop.index0 | plus: 7}}</a>
   <div class="modal fade" id="soal{{forloop.index0 | plus: 7}}">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -60,8 +60,8 @@
           {% if question.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
-          <span class="scored pull-right" data-score="20">20</span> 
-          <h4 class="title">
+          <h4 class="title bg3">
+            <span class="scored" data-score="20">20</span> 
             <span class="id">{{forloop.index0 | plus: 7}}.</span> 
             <span class="type">Fill in the blanks</span>
           </h4>
@@ -98,7 +98,7 @@
   {% endfor %}
   
   {% for question in site.data.questions-3-MCQ %}
-  <a href="#" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
+  <a href="#" class="btn btn-warning btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
   <div class="modal fade" id="soal{{forloop.index0 | plus: 22}}">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -106,8 +106,8 @@
           {% if question.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
-          <span class="score pull-right" data-score="10">10</span> 
-          <h4 class="title">
+          <h4 class="title bg2">
+            <span class="score" data-score="10">10</span> 
             <span class="id">{{forloop.index0 | plus: 22}}.</span> 
             <span class="type">Multiple Choice Question</span>
           </h4>
@@ -139,7 +139,7 @@
   
   
   {% for question in site.data.questions-4-true-false %}
-  <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
+  <a href="#" class="btn btn-danger btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
   <div class="modal fade" id="soal{{forloop.index0 | plus: 37}}">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -147,8 +147,8 @@
           {% if question.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
-          <span class="score pull-right" data-score="5">5</span> 
-          <h4 class="title">
+          <h4 class="title bg1">
+            <span class="score" data-score="5">5</span> 
             <span class="id">{{forloop.index0 | plus: 37}}.</span> 
             <span class="type">True of False</span>
           </h4>
@@ -185,6 +185,7 @@
         <h4 class="modal-title">Bonus List</h4>
       </div>
       <div class="modal-body">
+        <div class="dice"></div>
         <ol>
           <li>Main satu giliran lagi</li>
           <li>Ambil satu kartu yang sudah dipakai dari tim sendiri</li>
