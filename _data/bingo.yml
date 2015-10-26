@@ -1,6 +1,6 @@
 # bingo.yml
 ---
-- img: coatofarms.png
+- img: coatofarms2.png
   question: 'coat of arms tersebut digunakan oleh?'
   choices:
   - {option: "pope paul VI" , class: false}

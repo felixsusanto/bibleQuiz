@@ -30,16 +30,16 @@
           <p>And the judge says, your answer is…</p>
           <ol class="multiplechoices">
             <label>
-              <input type="checkbox" value="" class="true">
-              <span><span class="label label-danger">+0</span> Acceptable</span>
+              <input type="checkbox" value="" class="false">
+              <span><span class="label label-danger">x0</span> Incorrect!</span>
             </label>
             <label>
               <input type="checkbox" value="" class="true">
-              <span><span class="label label-warning">+10</span> Good</span>
+              <span><span class="label label-warning">x0.5</span> Good</span>
             </label>
             <label>
               <input type="checkbox" value="" class="true">
-              <span><span class="label label-success">+20</span> Satisfactory</span>
+              <span><span class="label label-success">x1</span> Satisfactory</span>
             </label>
           </ol>
           {% include cardslot.html %}
@@ -102,7 +102,7 @@
   
   {% for question in site.data.questions-3-MCQ %}
   <a href="#" class="btn btn-warning btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
-  <div class="modal fade" id="soal{{forloop.index0 | plus: 22}}">
+  <div class="mcq modal fade" id="soal{{forloop.index0 | plus: 22}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
@@ -143,7 +143,7 @@
   
   {% for question in site.data.questions-4-true-false %}
   <a href="#" class="btn btn-danger btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
-  <div class="modal fade" id="soal{{forloop.index0 | plus: 37}}">
+  <div class="truefalse modal fade" id="soal{{forloop.index0 | plus: 37}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">

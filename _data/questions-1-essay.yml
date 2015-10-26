@@ -17,21 +17,23 @@
 #2
 - question: "sebutkan 9 tempat major apparition yg diakui"
   answer: |
-    "Guadalupe, Rue du Bac, La Salette, Lourdes, Fatima, Pontmain, Knock, Beauraing, Banneux"
+    <ul><li>Guadalupe</li><li>Rue du Bac</li><li>La Salette</li><li>Lourdes</li><li>Fatima</li><li>Pontmain</li><li>Knock</li><li>Beauraing</li><li>Banneux</li></ul>
 #3
 - question: "sebutkan 10 perintah Allah secara berurutan"
   bonus: "yes"
   answer: |
-    "1.I am the Lord your God: you shall not have strange gods before me. You shall not make for yourself a graven image.
-    2. You shall not take the name of the Lord your God in vain.
-    3.  Remember to keep holy the Lord's Day.
-    4.  Honor your father and mother.
-    5.  You shall not kill.
-    6.  You shall not commit adultery.
-    7.  You shall not steal
-    8.  You shall not bear false witness against your neighbor.
-    9.  You shall not covet your neighbor's wife.
-    10. You shall not covet your neighbor's goods"
+    <ol>
+      <li>I am the Lord your God: you shall not have strange gods before me. You shall not make for yourself a graven image.</li>
+      <li>You shall not take the name of the Lord your God in vain.</li>
+      <li>Remember to keep holy the Lord's Day.</li>
+      <li>Honor your father and mother.</li>
+      <li>You shall not kill.</li>
+      <li>You shall not commit adultery.</li>
+      <li>You shall not steal</li>
+      <li>You shall not bear false witness against your neighbor.</li>
+      <li>You shall not covet your neighbor's wife.</li>
+      <li>You shall not covet your neighbor's goods</li>
+    </ol>
 #4
 - question: "Urutkan ke 4 injil dan surat ke Galatian dari yg ditulis lebih dahulu"
   answer: |
@@ -40,10 +42,9 @@
 - question: "Jelaskan perbedaan antara Apostolic Nuncio, Apostolic Delegate dan Apostolic Visitor"
   bonus: "yes"
   answer: |
-    "Delegate: no diplomatic ties
-    Visitor : country which is not recoqnizing vatican"
+    <ul><li>Delegate: no diplomatic ties</li><li>Visitor : country which is not recoqnizing vatican</li></ul>
 #6
 - question: 'Jelaskan perbedaan antara "sister churches" dan "ecclesial community"'
   answer: |
-    "sister church : orthodox (7 sacraments, apostolic succession)
-     ecclesial community : only have 1 of above"
+    sister church : orthodox (7 sacraments, apostolic succession) <br>
+    ecclesial community : only have 1 of above
