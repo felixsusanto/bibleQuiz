@@ -2,17 +2,48 @@
 #2 bonus question - 3, 5
 ---
 #1
-- img: "SaintMotherTheodoreGuerinPressPhoto.jpg"
-  question: "Jelaskan siapa ini dan mengapa?"
+- img: "miraculous-medal.jpg"
+  question: "explain the images of miraculous medal"
+  answer: |
+    <ol>
+      <li>Maria adalah ratu surga dan bumi. Ia menghancurkan iblis dibawah kakinya. Si jahat yang tidak berdaya dihadapan sang Bunda. (bdk Gen 3:15).</li>
+      <li>Tangan Maria yang terbuka dan banyak sinar yang memancar adalah berkat yang Bunda Maria dapatkan untuk orang-orang yang memohonnya. Permata yang berwarna kegelapan melambangkan berkat/anugrah yang disediakan tetapi tidak didapatkan oleh orang-orang, karena mereka tidak memintanya.</li>
+      <li>Tulisan „ O Mary, conceived without sin, pray for us who have recourse to thee.“ menunjukan kepada Maria yang dikandung tanpa noda, yang berarti bahwa ia bebas dari segala noda dan dosa asal.</li>
+      <li>Di sisi belakang medali, 12 bintang melambangkan 12 rasul, yang juga melambangkan keseluruhan Gereja, yang juga mengelilingi Maria.</li>
+      <li>Huruf „M“ adalah untuk Maria dan salib adalah salib dari Yesus Kristus, yang melambangkan tanda penebusan kita.</li>
+      <li>Balok horizontal melambangkan dunia. Peletakan balok dibawah salib tersebut melambangkan partisipasi Bunda Maria di dalam Salib Kristus dan penyertaannya di dalam dunia kita.</li>
+      <li>2 hati yang terbakar adalah hati Yesus dan Maria yang selalu menyala dengan api cinta untuk kita semua.</li>
+    </ol>
 #2
-- question: "Ini adalah pertanyaan essay, kenapa begini?"
+- question: "sebutkan 9 tempat major apparition yg diakui"
+  answer: |
+    "Guadalupe, Rue du Bac, La Salette, Lourdes, Fatima, Pontmain, Knock, Beauraing, Banneux"
 #3
-- question: "Ini adalah pertanyaan essay, kenapa begini?"
+- question: "sebutkan 10 perintah Allah secara berurutan"
   bonus: "yes"
+  answer: |
+    "1.I am the Lord your God: you shall not have strange gods before me. You shall not make for yourself a graven image.
+    2. You shall not take the name of the Lord your God in vain.
+    3.  Remember to keep holy the Lord's Day.
+    4.  Honor your father and mother.
+    5.  You shall not kill.
+    6.  You shall not commit adultery.
+    7.  You shall not steal
+    8.  You shall not bear false witness against your neighbor.
+    9.  You shall not covet your neighbor's wife.
+    10. You shall not covet your neighbor's goods"
 #4
-- question: "Ini adalah pertanyaan essay, kenapa begini?"
+- question: "Urutkan ke 4 injil dan surat ke Galatian dari yg ditulis lebih dahulu"
+  answer: |
+    "Galatians, Mark, Matthew, Luke, John"
 #5
-- question: "Ini adalah pertanyaan essay, kenapa begini?"
+- question: "Jelaskan perbedaan antara Apostolic Nuncio, Apostolic Delegate dan Apostolic Visitor"
   bonus: "yes"
+  answer: |
+    "Delegate: no diplomatic ties
+    Visitor : country which is not recoqnizing vatican"
 #6
-- question: "Ini adalah pertanyaan essay, kenapa begini?"
+- question: 'Jelaskan perbedaan antara "sister churches" dan "ecclesial community"'
+  answer: |
+    "sister church : orthodox (7 sacraments, apostolic succession)
+     ecclesial community : only have 1 of above"

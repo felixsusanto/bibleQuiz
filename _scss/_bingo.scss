@@ -6,11 +6,35 @@
       position: absolute;
       top:50%;
       transform:translateY(-50%);
+      color: $brand-success;
+      text-shadow:none;
+      font-size: 2em;
+    }
+    &.right, &.left{
+      background-image: none;
+    }
+    &.right>.fa{
+      right:15px;
+    }
+    &.left>.fa{
+      left: 15px;
     }
   }
   .question-container{
     width: 80%;
     margin:0 auto;
-    min-height:600px;
+    min-height:300px;
+    font-size: 23px;
+    padding:20px;
+  }
+  .start-bingo{
+    background:$brand-danger;
+    text-align: center;
+    padding:60px;
+    height: 300px;
+    >img{
+      display:inline;
+      width:50%;
+    }
   }
 }

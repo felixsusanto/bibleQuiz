@@ -13,7 +13,7 @@
             {% include bonusround.html %}
           {% endif %}
           <h4 class="title bg4">
-            <span class="score" data-score="40">40</span> 
+            <span class="score" data-score="60">60</span> 
             <span class="id">{{forloop.index0 | plus: 1}}.</span> 
             <span class="type">Essay/Open Ended Question</span>
           </h4>
@@ -23,6 +23,9 @@
             {% endif %}
             {{question.question}}
           </p>
+          <div class="hide">
+            {{question.answer}}
+          </div>
           <hr>
           <p>And the judge says, your answer is…</p>
           <ol class="multiplechoices">

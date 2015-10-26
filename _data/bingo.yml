@@ -1,113 +1,87 @@
-#question-MCQ.yml
-# 4 bonus - 23, 33, 35, 29
+# bingo.yml
 ---
-#22
-- img: "SaintMotherTheodoreGuerinPressPhoto.jpg"
-  question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#23
-- question: "Kenapa begini? Kenapa begitu?"
-  bonus: "yes"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#24
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#25
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#26
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#27
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#28
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#29
-- question: "Kenapa begini? Kenapa begitu?"
-  bonus: "yes"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#30
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#31
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#32
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#33
-- question: "Kenapa begini? Kenapa begitu?"
-  bonus: "yes"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#34
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#35
-- question: "Kenapa begini? Kenapa begitu?"
-  bonus: "yes"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
-#36
-- question: "Kenapa begini? Kenapa begitu?"
-  choices: 
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Karena begini begitu", class: false}
-  - {option: "Yang ini bener", class: true}
+- img: coatofarms.png
+  question: 'coat of arms tersebut digunakan oleh?'
+  choices:
+  - {option: "pope paul VI" , class: false}
+  - {option: "pope francis" , class: false}
+  - {option: "pope benedict xvi" , class: false}
+  - {option: "pope john paul ii" , class: true}
+- question: 'Whose ear did one of the apostles cut off? (Lk 22:50)'
+  choices:
+  - {option: "one of the soldier" , class: false}
+  - {option: "the slave of the high priest" , class: true}
+  - {option: "one of the high priest" , class: false}
+  - {option: "one of the bypasser" , class: false}
+- question: 'St. Louis and Zelie Martin adalah orang tua dari ..'
+  choices:
+  - {option: "St. Martin" , class: false}
+  - {option: "St. Bernadette" , class: false}
+  - {option: "St. Therese of Lisieux" , class: true}
+  - {option: "St. Louis de Montfort" , class: false}
+- question: 'Berikut ini bukan bagian dari peristiwa sedih'
+  choices:
+  - {option: "Yesus didera" , class: false}
+  - {option: "Yesus wafat" , class: false}
+  - {option: "Yesus diadili pontius pilatus" , class: true}
+  - {option: "Yesus dimahkotai duri" , class: false}
+- question: 'Where is the site of Galatia today?'
+  choices:
+  - {option: "in Italy" , class: false}
+  - {option: "in Turkey" , class: true}
+  - {option: "in Greece" , class: false}
+  - {option: "in Spain" , class: false}
+- question: 'Siapakah yang menemani Paulus di dalam perjalanannya yang ke 2 ke Yerusalem?'
+  choices:
+  - {option: "Priscilla and Aquila" , class: false}
+  - {option: "Peter and James" , class: false}
+  - {option: "Titus and Barabbas" , class: false}
+  - {option: "none of above is true" , class: true}
+- question: 'Honorary title given by the pope to a priest in recognition of his contributions to the life of the Church is called :'
+  choices:
+  - {option: "Arch-Bishop" , class: false}
+  - {option: "Monsignor" , class: true}
+  - {option: "Papal Nuncio" , class: false}
+  - {option: "Cardinal" , class: false}
+- question: 'In Guadalupe, Mexico, the blessed virgin appeared to ..'
+  choices:
+  - {option: "Juan Diego" , class: true}
+  - {option: "Juan de Zumarraga" , class: false}
+  - {option: "Juan Bernardino" , class: false}
+  - {option: "none above is true" , class: false}
+- question: 'What was the nationality of Titus?'
+  choices:
+  - {option: "Philistine" , class: false}
+  - {option: "Greek" , class: true}
+  - {option: "Romans" , class: false}
+  - {option: "Jews" , class: false}
+- question: 'Blessed are the poor in spirit, for .......'
+  choices:
+  - {option: "they will be comforted" , class: false}
+  - {option: "they will inherit the earth" , class: false}
+  - {option: "they will recieve mercy" , class: false}
+  - {option: "theirs is the kingdm of heaven" , class: true}
+- question: 'Who said to whom : "Do you want us to command fire to come down from heaven and consume them?" (Lk 9:54)'
+  choices:
+  - {option: "Peter and James to Jesus" , class: false}
+  - {option: "Peter and John to Jesus" , class: false}
+  - {option: "James and John to Jesus" , class: true}
+  - {option: "Peter, James and John to Jesus" , class: false}
+- question: 'Who said to whom : "Kamu tidak dapat mengabdi kepada Allah dan kepada Mamon" (Lk16:13)'
+  choices:
+  - {option: "Jesus to the Pharisees" , class: false}
+  - {option: "Jesus to the high priest" , class: false}
+  - {option: "Jesus to his disciples" , class: true}
+  - {option: "Jesus to the wealthy young man" , class: false}
+- question: 'Who said to whom : "Hurry come down for I must stay at your house today." (Lk19:5)'
+  choices:
+  - {option: "Jesus to Zachariah" , class: false}
+  - {option: "Jesus to Cephas" , class: false}
+  - {option: "Jesus to Zaccheus" , class: true}
+  - {option: "none above is true" , class: false}
+- question: 'Who is the bishop of rome?'
+  choices:
+  - {option: "Angelo Roncalli" , class: false}
+  - {option: "Jorge Mario Bergoglio" , class: true}
+  - {option: "Giovanni Battista Montini" , class: false}
+  - {option: "Francesco Forgione" , class: false }

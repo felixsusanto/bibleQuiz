@@ -1,53 +1,49 @@
 #question-true-false.yml
-#5 bonus: 
+#5 bonus: 37, 39, 41, 44, 45
 ---
 #37
-- question: "Ini bener apa salah?"
-  bonus: "yes"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
-#38
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- bonus: "yes"
+  question: 'Saat ini, jumlah cardinal dalam gereja katolik melebihi 183'
+  choices:
+  - {option: "Bener", class: true}
+  - {option: "Salah", class: false}
+- question: 'Talita Kum artinya "anakku, lihatlah/terbukalah"'
+  choices:
+  - {option: "Bener", class: false}
+  - {option: "Salah", class: true}
 #39
-- question: "Ini bener apa salah?"
-  bonus: "yes"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
-#40
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- bonus: "yes"
+  question: 'Sampai saat ini, pope Francis telah mengeluarkan 3 ensiklikal'
+  choices:
+  - {option: "Bener", class: false}
+  - {option: "Salah", class: true}
+- question: 'There are 6 chapters in letter to the Galatians'
+  choices:
+  - {option: "Bener", class: true}
+  - {option: "Salah", class: false}
 #41
-- question: "Ini bener apa salah?"
-  bonus: "yes"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
-#42
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
-#43
-- question: "Ini bener apa salah?"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- bonus: "yes"
+  question: 'Pope Francis once said this : "As the family goes, so goes the nation, and so goes the whole world in which we live"'
+  choices:
+  - {option: "Bener", class: false}
+  - {option: "Salah", class: true}
+- question: 'Peter and John are the disciples who went ahead to prepare the passover meal for Jesus'
+  choices:
+  - {option: "Bener", class: true}
+  - {option: "Salah", class: false}
+- question: 'Pope John Paul II beatified by pope benedict XVI'
+  choices:
+  - {option: "Bener", class: true}
+  - {option: "Salah", class: false}
 #44
-- question: "Ini bener apa salah?"
-  bonus: "yes"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- bonus: "yes"
+  question: 'Pope JP ii once said in Redemptoris Missio: "faith and reason are like two wings... "'
+  choices:
+  - {option: "Bener", class: false}
+  - {option: "Salah", class: true}
 #45
-- question: "Ini bener apa salah?"
-  bonus: "yes"
-  choices: 
-  - {option: "Yang ini salah", class: false}
-  - {option: "Yang ini bener", class: true}
+- bonus: "yes"
+  question: 'The word "Messiah" means "saviour"'
+  choices:
+  - {option: "Bener", class: false}
+  - {option: "Salah", class: true}
