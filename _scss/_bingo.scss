@@ -4,8 +4,9 @@
     
     >.fa{
       position: absolute;
-      top:50%;
-      transform:translateY(-50%);
+      top:200px;
+      //top:50%;
+      //transform:translateY(-50%);
       color: $brand-success;
       text-shadow:none;
       font-size: 2em;
