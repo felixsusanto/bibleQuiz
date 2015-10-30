@@ -58,4 +58,40 @@ $(document).ready(function(){
     }
     twoHook.text( this.value );
   });
+
+  //TIMER
+  var seconds = 60;
+
+  $("#start").on('click',function(){
+    var init = 0;
+    $("#timer").countdown(Date.now() + seconds*1000, function(event) {
+      $(this).text(
+        event.strftime('%M:%S')
+      );
+    }).on("finish.countdown",function(e){
+      $(this).text(
+          "TIME'S UP!"
+        ).addClass('text-warning');
+    });;
+    $('.circle').circleProgress({
+      size:200,
+      value: 0,
+      lineCap: 'round',
+      fill: { color: '#ffa500' },
+      animation: { duration: seconds*1000 },
+      animationStartValue:1.0
+    });
+  });
+
+  //TIME LEFT
+  $(".timeleft").countdown(/*"2015/11/21 15:50:00"*/Date.now() + 10000, function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  }).on("finish.countdown",function(e){
+    $(this).text(
+        "TIME'S UP!"
+      ).addClass('text-warning h1');
+  });
+
 });
