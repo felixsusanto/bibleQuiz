@@ -3,47 +3,49 @@
 ---
 #37
 - bonus: "yes"
-  question: 'Saat ini, jumlah cardinal dalam gereja katolik melebihi 183'
+  question: 'Saat ini jumlah cardinal dalam gereja Katolik melebihi 183'
   choices:
-  - {option: "Bener", class: true}
+  - {option: "Benar", class: true}
   - {option: "Salah", class: false}
-- question: 'Talita Kum artinya "anakku, lihatlah/terbukalah"'
+  remarks: "Yang benar: 218"
+- question: '"Talita Kum" artinya "Anakku, lihatlah/terbukalah"'
   choices:
-  - {option: "Bener", class: false}
+  - {option: "Benar", class: false}
   - {option: "Salah", class: true}
 #39
 - bonus: "yes"
-  question: 'Sampai saat ini, pope Francis telah mengeluarkan 3 ensiklikal'
+  question: 'Sampai saat ini, Pope Francis telah mengeluarkan 3 ensiklikal'
   choices:
-  - {option: "Bener", class: false}
+  - {option: "Benar", class: false}
   - {option: "Salah", class: true}
-- question: 'There are 6 chapters in letter to the Galatians'
+- question: 'There are 6 chapters in the letter to the Galatians'
   choices:
-  - {option: "Bener", class: true}
+  - {option: "Benar", class: true}
   - {option: "Salah", class: false}
 #41
 - bonus: "yes"
-  question: 'Pope Francis once said this : "As the family goes, so goes the nation, and so goes the whole world in which we live"'
+  question: 'Pope Francis once said this: "As the family goes, so goes the nation, and so goes the whole world in which we live"'
   choices:
-  - {option: "Bener", class: false}
+  - {option: "Benar", class: false}
   - {option: "Salah", class: true}
-- question: 'Peter and John are the disciples who went ahead to prepare the passover meal for Jesus'
+- question: 'Peter and John were the disciples who went ahead to prepare the passover meal for Jesus'
   choices:
-  - {option: "Bener", class: true}
+  - {option: "Benar", class: true}
   - {option: "Salah", class: false}
-- question: 'Pope John Paul II beatified by pope benedict XVI'
+- question: 'Pope John Paul II was beatified by Pope Benedict XVI'
   choices:
-  - {option: "Bener", class: true}
+  - {option: "Benar", class: true}
   - {option: "Salah", class: false}
 #44
 - bonus: "yes"
-  question: 'Pope JP ii once said in Redemptoris Missio: "faith and reason are like two wings... "'
+  question: 'Pope John Paul II once said in Redemptoris Missio: "Faith and reason are like two wings... "'
   choices:
-  - {option: "Bener", class: false}
+  - {option: "Benar", class: false}
   - {option: "Salah", class: true}
 #45
 - bonus: "yes"
-  question: 'The word "Messiah" means "saviour"'
+  question: 'The word "Messiah" means "Saviour"'
   choices:
-  - {option: "Bener", class: false}
+  - {option: "Benar", class: false}
   - {option: "Salah", class: true}
+  remarks: 'It means "Anointed one"'

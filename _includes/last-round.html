@@ -26,6 +26,12 @@
           <div class="hide">
             {{question.answer}}
           </div>
+          <div class="hide">
+            {% if question.remarks %}
+              <span class="label label-success">Remarks: </span><br>
+              {{question.remarks}}
+            {% endif %}
+          </div>
           <hr>
           <p>And the judge says, your answer is…</p>
           <ol class="multiplechoices">
@@ -75,6 +81,12 @@
             {{question.question}}
           </p>
           <p class="hide"><span class="label label-success">{{question.answer}}</span></p>
+          <div class="hide">
+            {% if question.remarks %}
+              <span class="label label-success">Remarks: </span><br>
+              {{question.remarks}}
+            {% endif %}
+          </div>
           <hr>
           <p>And the judge says, your answer is…</p>
           <ol class="multiplechoices">
@@ -120,6 +132,12 @@
             {% endif %}
             {{question.question}}
           </p>
+          <div class="hide">
+            {% if question.remarks %}
+              <span class="label label-success">Remarks: </span><br>
+              {{question.remarks}}
+            {% endif %}
+          </div>
           <ol class="multiplechoices">
             {% for choice in question.choices%}
               <label>
@@ -161,6 +179,12 @@
             {% endif %}
             {{question.question}}
           </p>
+          <div class="hide">
+            {% if question.remarks %}
+              <span class="label label-success">Remarks: </span><br>
+              {{question.remarks}}
+            {% endif %}
+          </div>
           <ol class="multiplechoices">
             {% for choice in question.choices%}
               <label>
@@ -191,11 +215,11 @@
         <div class="dice"></div>
         <ol>
           <li>Main satu giliran lagi</li>
-          <li>Ambil satu kartu yang sudah dipakai dari tim sendiri</li>
-          <li>Absolusi (reset score jadi 0 kalau score total minus)</li>
-          <li>Bonus 50% dari soal ini</li>
-          <li>Ambil satu kartu random dari pool</li>
-          <li>Charity (beri kesempatan ini ke team lain)</li>
+          <li>Ambil 1 kartu yang sudah dipakai dari tim sendiri</li>
+          <li>Reset score jadi 0 kalau score total minus</li>
+          <li>Unlock Mama Shop! / Bonus point 50% untuk soal ini</li>
+          <li>Ambil satu kartu random dari common card deck</li>
+          <li>Beri tim lain kesempatan untuk roll the dice</li>
         </ol>
       </div>
       <div class="modal-footer">

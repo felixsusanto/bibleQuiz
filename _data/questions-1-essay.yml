@@ -3,7 +3,7 @@
 ---
 #1
 - img: "miraculous-medal.jpg"
-  question: "explain the images of miraculous medal"
+  question: "Explain the images of miraculous medal"
   answer: |
     <ol>
       <li>Maria adalah ratu surga dan bumi. Ia menghancurkan iblis dibawah kakinya. Si jahat yang tidak berdaya dihadapan sang Bunda. (bdk Gen 3:15).</li>
@@ -14,12 +14,14 @@
       <li>Balok horizontal melambangkan dunia. Peletakan balok dibawah salib tersebut melambangkan partisipasi Bunda Maria di dalam Salib Kristus dan penyertaannya di dalam dunia kita.</li>
       <li>2 hati yang terbakar adalah hati Yesus dan Maria yang selalu menyala dengan api cinta untuk kita semua.</li>
     </ol>
+  remarks: "Jawab 3-5 points: nilai separuh  |  Jawab 6-7 points: nilai full"
 #2
-- question: "sebutkan 9 tempat major apparition yg diakui"
+- question: "Sebutkan 9 tempat major apparition yg diakui Gereja Katolik"
   answer: |
     <ul><li>Guadalupe</li><li>Rue du Bac</li><li>La Salette</li><li>Lourdes</li><li>Fatima</li><li>Pontmain</li><li>Knock</li><li>Beauraing</li><li>Banneux</li></ul>
+  remarks: "Jawab 4-6 points: nilai separuh  |  Jawab 7-9 points: nilai full"
 #3
-- question: "sebutkan 10 perintah Allah secara berurutan"
+- question: "Sebutkan 10 perintah Allah secara berurutan"
   bonus: "yes"
   answer: |
     <ol>
@@ -34,6 +36,7 @@
       <li>You shall not covet your neighbor's wife.</li>
       <li>You shall not covet your neighbor's goods</li>
     </ol>
+  remarks: "Jawab 5-9 points: nilai separuh  |  Jawab 10 points: nilai full"
 #4
 - question: "Urutkan ke 4 injil dan surat ke Galatian dari yg ditulis lebih dahulu"
   answer: |

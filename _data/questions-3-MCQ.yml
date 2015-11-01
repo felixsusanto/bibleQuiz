@@ -7,7 +7,7 @@
   - {option: 'Aramaic', class: false}
   - {option: 'Greek', class: true}
   - {option: 'Babylonian', class: false}
-  - {option: 'all above', class: false}
+  - {option: 'All of the above', class: false}
 #23
 - question: 'Di dalam silsilah Yesus di Matius bab 1, nama wanita manakah yang tidak disebut di dalamnya?'
   bonus: "yes"
@@ -18,55 +18,55 @@
   - {option: 'Bathseba', class: true}
 - question: 'St. Matthew is patron of?'
   choices:
-  - {option: 'business man', class: false}
-  - {option: 'accountants', class: true}
-  - {option: 'tax collectors', class: false}
-  - {option: 'investment bankers', class: false}
+  - {option: 'Businessmen', class: false}
+  - {option: 'Accountants', class: true}
+  - {option: 'Tax collectors', class: false}
+  - {option: 'Investment bankers', class: false}
 - question: 'The feast of immaculate conception :'
   choices:
-  - {option: '13th of june', class: false}
-  - {option: '7th of october', class: false}
-  - {option: '15th of august', class: false}
-  - {option: '8th of december', class: true}
+  - {option: '13th of June', class: false}
+  - {option: '7th of October', class: false}
+  - {option: '15th of August', class: false}
+  - {option: '8th of December', class: true}
 - img: 'St-Gemma-Galgani-student.jpg'
-  question: 'together with St. Scholastica, she is patron saint of..'
+  question: 'Together with St. Scholastica, she is patron saint of..'
   choices:
-  - {option: 'students', class: true}
-  - {option: 'missionaries', class: false}
-  - {option: 'architects', class: false}
-  - {option: 'bakers', class: false}
-- question: 'Who said the following : "We wish to confirm once more that the task of evangelizing all people constitutes the essential mission of the Church... "'
+  - {option: 'Students', class: true}
+  - {option: 'Missionaries', class: false}
+  - {option: 'Architects', class: false}
+  - {option: 'Bakers', class: false}
+- question: 'Who said the following statement: "We wish to confirm once more that the task of evangelizing all people constitutes the essential mission of the Church... "'
   choices:
   - {option: 'Pope Benedict XVI', class: false}
   - {option: 'Pope Francis ', class: false}
   - {option: 'Pope John Paul II', class: false}
-  - {option: 'none of above', class: true}
-- question: 'Which of the disciples asked Jesus when the destruction of the tample would take place? (Mk13:3)'
+  - {option: 'None of the above', class: true}
+- question: 'Which of the disciples asked Jesus when the destruction of the temple would take place? (Mk13:3)'
   choices:
   - {option: 'Peter, James, John and Matthew', class: false}
   - {option: 'Peter, James, John and Andrew', class: true}
   - {option: 'Peter, Matthew, John and Andrew', class: false}
   - {option: 'James, John, Matthew and Andrew', class: false}
 #29
-- question: '"Fide et Ratio" oleh St. JP II adalah merupakah sebuah...'
+- question: '"Fide et Ratio" by St. John Paul II is a / an...'
   bonus: "yes"
   choices:
-  - {option: 'apostolic letter', class: false}
-  - {option: 'decree of the Church', class: false}
-  - {option: 'encyclical letter', class: true}
-  - {option: 'dogmatic constitution', class: false}
-- question: 'Who was never been apointed as archbishop of Singapore?'
+  - {option: 'Apostolic letter', class: false}
+  - {option: 'Decree of the Church', class: false}
+  - {option: 'Encyclical letter', class: true}
+  - {option: 'Dogmatic constitution', class: false}
+- question: 'Who has never been apointed as the archbishop of Singapore?'
   choices:
   - {option: 'Michel Olcomendy', class: false}
   - {option: 'Nicholas Chia', class: false}
   - {option: 'Gregory Yong', class: false}
-  - {option: 'all above is false', class: true}
-- question: 'Apakah warna jubah yang dipakaikan ke  Yesus oleh para serdadu?'
+  - {option: 'All of the above are false', class: true}
+- question: 'Apakah warna jubah yang dipakaikan ke Yesus oleh para serdadu?'
   choices:
-  - {option: 'putih', class: false}
-  - {option: 'coklat', class: false}
-  - {option: 'ungu', class: true}
-  - {option: 'semua salah, karena tidak ada jubah', class: false}
+  - {option: 'Putih', class: false}
+  - {option: 'Coklat', class: false}
+  - {option: 'Ungu', class: true}
+  - {option: 'Semua salah, karena tidak ada jubah', class: false}
 - question: 'Berapakah jumlah bab yang ada dalam Injil Lukas?'
   choices:
   - {option: '24', class: true}
@@ -74,21 +74,22 @@
   - {option: '16', class: false}
   - {option: '28', class: false}
 #33
-- question: 'berikut ini yang tidak lagi menjadi/bukan bagian dari gereja Katolik adalah ...'
+- question: 'Berikut ini yang tidak lagi menjadi/bukan bagian dari gereja Katolik adalah ...'
   bonus: "yes"
   choices:
   - {option: 'Archbishop of Venice', class: false}
   - {option: 'Archbishop of Cagliari', class: false}
   - {option: 'Archbishop of Los Angeles', class: false}
   - {option: 'Archbishop of Canterbury', class: true}
-- question: 'to whom did Philip tell that they have found the messiah? (Jn 1:45)'
+- question: 'To whom did Philip tell that they have found the messiah? (Jn 1:45)'
   choices:
   - {option: 'Peter', class: false}
   - {option: 'Andrew', class: false}
   - {option: 'James', class: false}
-  - {option: 'none of above', class: true}
+  - {option: 'None of the above', class: true}
+  remarks: "Nathanael"
 #35
-- question: 'Siapakah yang mengeluarkan ensiklikal pertama dalam sejarah gereja Katolik dengan menggunakan judul di dalam bahasa Italia ?'
+- question: 'Siapakah yang mengeluarkan ensiklikal pertama dalam sejarah gereja Katolik dengan menggunakan judul dalam bahasa Italia ?'
   bonus: "yes"
   choices:
   - {option: 'Pope Paul VI', class: false}
