@@ -1,134 +1,100 @@
 # cards
 # category: 
 ---
-- thumb: 9cae16124d62680d1f76fb1d77b34bd6.jpg
-  hires: 9cae16124d62680d1f76fb1d77b34bd6.jpg
-  caption: "Lempar pertanyaan ke kelompok lain, lari dari kemungkinan penalti karena ga bisa jawab soal"
-  classCategory: etc
-  name: Taichi Master
-  effect: 
-  shortDesc: lempar pertanyaan
-- thumb: 82f27a134e01fe67e8b2348cec34675d.jpg
-  hires: 82f27a134e01fe67e8b2348cec34675d.jpg 
-  caption: "Anulir penalti kalo ga bisa jawab soal, kalo jawaban bener total point dikurangi 20% (misal: 100 ->80)"
-  classCategory: score
-  name: Insurance Cover
-  effect: retain
-  shortDesc: 0.8x - no penalty
-- thumb: How-to-Become-a-Saint-inline1-1210538.jpg
-  hires: How-to-Become-a-Saint-inline1-1210538.jpg 
-  caption: "Ambil 2 kartu random dari pool kartu"
-  classCategory: card
-  name: Lobang King
-  effect: 
-  shortDesc: 2 random card from pool
-- thumb: our_lady_of_mount_caramel-e1345418081481.jpg
-  hires: our_lady_of_mount_caramel-e1345418081481.jpg 
-  caption: "Pilih 1 kartu dari kartu yang udah dipake"
-  classCategory: card
-  name: Recycle Bin
-  effect: 
-  shortDesc: pick 1 used card
-- thumb: saintveronica_stainedglass_300x450-200x300.jpg
-  hires: saintveronica_stainedglass_300x450-200x300.jpg
-  caption: "Kesempatan untuk jawab 2 kali di soal itu"
-  classCategory: etc
-  name: Kiasu Queen
-  effect: retain
-  shortDesc: jawab 2x
-- thumb: SaintMotherTheodoreGuerinPressPhoto.jpg
-  hires: SaintMotherTheodoreGuerinPressPhoto.jpg 
-  caption: "Buang 1 kartu random kelompok lain"
-  classCategory: card
-  name: Abeng Gangster
-  effect: 
-  shortDesc: eliminate 1 random card from other team
-- thumb: 200px-Pietro_Novelli_Our_Lady_of_Carmel_and_Saints.JPG
-  hires: 200px-Pietro_Novelli_Our_Lady_of_Carmel_and_Saints.JPG 
-  caption: "Double point untuk soal ini, double penalty kalo salah"
-  classCategory: score
-  name: Upsize Boss
-  effect: retain
-  shortDesc: 2x the score/penalty
+
 # last card
-- thumb: a.jpb
-  hires: a.jpg
+- thumb: samseng.png
+  hires: samseng.png
   classCategory: card
   name: Sam Seng
   caption: "Throw away 1 random card from another team. "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "Throw 1 random card from another team"
+- thumb: lobangking.png
+  hires: lobangking.png
   classCategory: card
   name: Lobang King
   caption: "Pick 2 random cards from the common card deck."
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "pick 2 random cards from common deck"
+- thumb: recyclebin.png
+  hires: recyclebin.png
   classCategory: card
   name: Recycle Bin
   caption: "Restore a used card (your own team's). "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "restore used card (own team's)"
+- thumb: ahlong.png
+  hires: ahlong.png
   classCategory: card
   name: Ah Long
   caption: "Pick 1 random card from any team of your choice."
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "pick 1 random card from other team"
+- thumb: kiasu.png
+  hires: kiasu.png
   classCategory: etc
   name: Kiasu Queen
   caption: "2 chances to answer a question. Eh, so kiasu ar you! "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "2 chances to answer a question"
+- thumb: taichimaster.png
+  hires: taichimaster.png
   classCategory: etc
   name: Taichi Master
   caption: "Can't answer the question? Run away from the possibility of penalty and pass on a question to the next team! "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "taichi question to other team"
+- thumb: mute.png
+  hires: mute.png
   classCategory: etc
-  effect: 
   name: Mute
   caption: "Excommunicate MM member(s) of a team (of your choice) for 1 round. "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "another team's MM member mute for 1 turn"
+- thumb: sotongblur.png
+  hires: sotongblur.png
   classCategory: etc
   name: Act Blur Sotong
   caption: "Dunno the answer ar? Then pass lor... "
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "pass the question (no penalty)"
+- thumb: insurance.png
+  hires: insurance.png
   classCategory: score
   effect: retain
   name: Insurance Coverage
   caption: "No penalty for wrong answer. However, for the right answer, the total point will be deducted by 20% (insurance premium lah!)."
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "no penalty, 0.8x point if answer is correct"
+- thumb: upsizeboss.png
+  hires: upsizeboss.png
   classCategory: score
   effect: retain
   name: Upsize Boss
   caption: "Earn double points for answering a question correctly. Double points penalty for wrong answer."
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "2x point, 2x penalty"
+- thumb: gembel.png
+  hires: gembel.png
   classCategory: card
   name: God of Gembel
-  caption: "Pick 1 used card from any team of your choice. "  
-- thumb: a.jpb
-  hires: a.jpg
+  caption: "Pick 1 used card from any team of your choice. " 
+  shortDesc: "pick 1 used card from any team" 
+- thumb: gambler.png
+  hires: gambler.png
   classCategory: mama
   effect: retain
   name: Gong-gong Gambler
   caption: "Earn triple points for answering a question correctly. Triple points penalty for wrong answer." 
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "3x point, 3x penalty"
+- thumb: doubledown.png
+  hires: doubledown.png
   classCategory: mama
   effect: retain
   name: Spoil Market
   caption: "Earn double points for answering a question correctly. No penalty for wrong answer. So good sia!"
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "2x point, no penalty"
+- thumb: pimpshop.png
+  hires: pimpshop.png
   classCategory: mama
-  name: Pawnshop
+  name: Pimpshop
   caption: "Borrow an MM member from a neighboring team (applicable only for teams who do not own an MM member), but don't forget to return them hor!"
-- thumb: a.jpb
-  hires: a.jpg
+  shortDesc: "borrow MM member for 1 turn"
+- thumb: doubleslot.png
+  hires: doubleslot.png
   classCategory: mama
   effect: retain
   name: (Extra Card Slot) 
   caption: "Extra card slot. Can be used at any point of time."
+  shortDesc: "double slot permanently"
