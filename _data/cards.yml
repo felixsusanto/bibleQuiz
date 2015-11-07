@@ -73,27 +73,27 @@
   shortDesc: "pick 1 used card from any team" 
 - thumb: gambler.png
   hires: gambler.png
-  classCategory: mama
+  classCategory: mama score
   effect: retain
   name: Gong-gong Gambler
   caption: "Earn triple points for answering a question correctly. Triple points penalty for wrong answer." 
   shortDesc: "3x point, 3x penalty"
 - thumb: doubledown.png
   hires: doubledown.png
-  classCategory: mama
+  classCategory: mama score
   effect: retain
   name: Spoil Market
   caption: "Earn double points for answering a question correctly. No penalty for wrong answer. So good sia!"
   shortDesc: "2x point, no penalty"
 - thumb: pimpshop.png
   hires: pimpshop.png
-  classCategory: mama
+  classCategory: mama etc
   name: Pimpshop
   caption: "Borrow an MM member from a neighboring team (applicable only for teams who do not own an MM member), but don't forget to return them hor!"
   shortDesc: "borrow MM member for 1 turn"
 - thumb: doubleslot.png
   hires: doubleslot.png
-  classCategory: mama
+  classCategory: mama etc
   effect: retain
   name: (Extra Card Slot) 
   caption: "Extra card slot. Can be used at any point of time."

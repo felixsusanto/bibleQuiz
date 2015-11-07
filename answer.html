@@ -1,10 +1,41 @@
 ---
 layout: default
 ---
+<section style="background:#0D0F0C;">
+  <div class="container">
+    <img src="img/bg/bbqbanner.jpg" alt="logo" class="img-responsive center-block logo">
+  </div>
+</section>
 <div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      {% include wordSearch.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      {% include charade.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      {% include bingo.html %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      {% include cards.html %}
+    </div>
+  </div>
   <div class="row">
     <div class="col-sm-12 text-center" style="padding:50px 0;">
       {% include last-round.html %}
     </div>
   </div>
+</div>
+<div class="timeleft-container text-center">
+  <hr>
+  <h3>
+    <span class="timeleft"></span>
+  </h3>
 </div>
