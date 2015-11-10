@@ -5,8 +5,6 @@
     >.fa{
       position: absolute;
       top:200px;
-      //top:50%;
-      //transform:translateY(-50%);
       color: $brand-success;
       text-shadow:none;
       font-size: 2em;
@@ -29,12 +27,12 @@
     padding:20px;
   }
   .start-bingo{
-    text-align: center;
-    padding:60px;
     height: 300px;
     >img{
-      display:inline;
-      width:50%;
+      margin-top: 30px;
+      @media(max-width:991px){
+        width: 80%;
+      }
     }
   }
 }

@@ -110,6 +110,16 @@ $(document).ready(function(){
     });
   });
 
-  
-
+  //PASSWORD
+  $('#submit').on('click',function(){
+    var $password = $("#password");
+    var $parent = $(this).closest('.password');
+    var pass = $password.data('pass');
+    console.log($password.val());
+    if($password.val()===pass){
+      $("#wrapper").removeClass('hidden-answer hide');
+      $parent.remove();
+      $(".control>a:first").click();
+    }
+  });
 });
