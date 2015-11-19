@@ -1,0 +1,17 @@
+---
+#04
+- img: "croatia.png"
+  question: 'This flag Belongs to?'
+  choices:
+  - {option: 'Netherlands', class: false}
+  - {option: 'Luxembourg', class: true}
+  - {option: 'Croatia', class: true}
+  - {option: 'Paraguay', class: false}
+#05
+- question: "Based on the teaching of the Catholic Church, Jesus is ..."
+  bonus: "yes"
+  choices:
+  - {option: 'Human person', class: false}
+  - {option: 'Divine person', class: true}
+  - {option: 'Half human & half divine person', class: false}
+  - {option: 'A & B are true', class: false}

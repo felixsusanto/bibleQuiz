@@ -1,15 +1,13 @@
-<section id="last-round"><hr>
-  <h1 class="text-center">Final Round</h1>
-  <p class="description lead">
-    Are you ready for some Bible trivia?
-  </p>
-  {% for question in site.data.questions-1-essay %}
-  <a href="#" class="btn btn-success btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
-  <div class="modal fade" id="soal{{forloop.index0 | plus: 1}}">
+<section id="testing">
+  <h4 class="text-center">Test Round</h4>
+  <p class="description lead">Familiarize yourself with the game and use your card for this round! All cards will be returned back to you!</p>
+  {% for testQuestion in site.data.test-1-essay %}
+  <a href="#" class="btn btn-success btnRound btn-lg" data-toggle="modal" data-target="#test{{forloop.index0 | plus: 1}}">{{forloop.index0 | plus: 1}}</a>
+  <div class="modal fade" id="test{{forloop.index0 | plus: 1}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          {% if question.bonus == "yes" %}
+          {% if testQuestion.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
           <h4 class="title bg4">
@@ -18,18 +16,18 @@
             <span class="type">Essay/Open Ended Question</span>
           </h4>
           <p class="question clearfix">
-            {% if question.img %}
-              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% if testQuestion.img %}
+              <img src="img/soal/{{testQuestion.img}}" class="pull-left">
             {% endif %}
-            {{question.question}}
+            {{testQuestion.question}}
           </p>
           <div class="hide">
-            {{question.answer}}
+            {{testQuestion.answer}}
           </div>
           <div class="hide">
-            {% if question.remarks %}
+            {% if testQuestion.remarks %}
               <span class="label label-success">Remarks: </span><br>
-              {{question.remarks}}
+              {{testQuestion.remarks}}
             {% endif %}
           </div>
           <hr>
@@ -56,35 +54,35 @@
       </div>
     </div>
   </div><!-- /.modal -->
-  {% include utilities/pyramid-breaks-1.html %}
+  
   
   {% endfor %}
-  
-  {% for question in site.data.questions-2-blanks %}
-  <a href="#" class="btn btn-primary btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 7}}">{{forloop.index0 | plus: 7}}</a>
-  <div class="modal fade" id="soal{{forloop.index0 | plus: 7}}">
+  <br>
+  {% for testQuestion in site.data.test-2-blanks %}
+  <a href="#" class="btn btn-primary btnRound btn-lg" data-toggle="modal" data-target="#test{{forloop.index0 | plus: 2}}">{{forloop.index0 | plus: 2}}</a>
+  <div class="modal fade" id="test{{forloop.index0 | plus: 2}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          {% if question.bonus == "yes" %}
+          {% if testQuestion.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
           <h4 class="title bg3">
             <span class="scored" data-score="20">20</span> 
-            <span class="id">{{forloop.index0 | plus: 7}}.</span> 
+            <span class="id">{{forloop.index0 | plus: 2}}.</span> 
             <span class="type">Fill in the blanks</span>
           </h4>
           <p class="question clearfix">
-            {% if question.img %}
-              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% if testQuestion.img %}
+              <img src="img/soal/{{testQuestion.img}}" class="pull-left">
             {% endif %}
-            {{question.question}}
+            {{testQuestion.question}}
           </p>
-          <p class="hide"><span class="label label-success">{{question.answer}}</span></p>
+          <p class="hide"><span class="label label-success">{{testQuestion.answer}}</span></p>
           <div class="hide">
-            {% if question.remarks %}
+            {% if testQuestion.remarks %}
               <span class="label label-success">Remarks: </span><br>
-              {{question.remarks}}
+              {{testQuestion.remarks}}
             {% endif %}
           </div>
           <hr>
@@ -108,38 +106,38 @@
       </div>
     </div>
   </div><!-- /.modal -->
-  {% include utilities/pyramid-breaks-2.html %}
+  
   
   {% endfor %}
-  
-  {% for question in site.data.questions-3-MCQ %}
-  <a href="#" class="btn btn-warning btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 22}}">{{forloop.index0 | plus: 22}}</a>
-  <div class="mcq modal fade" id="soal{{forloop.index0 | plus: 22}}">
+  <br>
+  {% for testQuestion in site.data.test-3-MCQ %}
+  <a href="#" class="btn btn-warning btnRound btn-lg" data-toggle="modal" data-target="#test{{forloop.index0 | plus: 4}}">{{forloop.index0 | plus: 4}}</a>
+  <div class="mcq modal fade" id="test{{forloop.index0 | plus: 4}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          {% if question.bonus == "yes" %}
+          {% if testQuestion.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
           <h4 class="title bg2">
             <span class="score" data-score="10">10</span> 
-            <span class="id">{{forloop.index0 | plus: 22}}.</span> 
+            <span class="id">{{forloop.index0 | plus: 4}}.</span> 
             <span class="type">Multiple Choice Question</span>
           </h4>
           <p class="question clearfix">
-            {% if question.img %}
-              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% if testQuestion.img %}
+              <img src="img/soal/{{testQuestion.img}}" class="pull-left">
             {% endif %}
-            {{question.question}}
+            {{testQuestion.question}}
           </p>
           <div class="hide">
-            {% if question.remarks %}
+            {% if testQuestion.remarks %}
               <span class="label label-success">Remarks: </span><br>
-              {{question.remarks}}
+              {{testQuestion.remarks}}
             {% endif %}
           </div>
           <ol class="multiplechoices">
-            {% for choice in question.choices%}
+            {% for choice in testQuestion.choices%}
               <label>
                 <input type="checkbox" value="" class="{{choice.class}}">
                 <span>{{choice.option}}</span>
@@ -154,39 +152,39 @@
       </div>
     </div>
   </div><!-- /.modal -->
-  {% include utilities/pyramid-breaks-3.html %}
+  
   
   {% endfor %}
   
   
-  {% for question in site.data.questions-4-true-false %}
-  <a href="#" class="btn btn-danger btnRound btn-lg" data-toggle="modal" data-target="#soal{{forloop.index0 | plus: 37}}">{{forloop.index0 | plus: 37}}</a>
-  <div class="truefalse modal fade" id="soal{{forloop.index0 | plus: 37}}">
+  {% for testQuestion in site.data.test-4-true-false %}
+  <a href="#" class="btn btn-danger btnRound btn-lg" data-toggle="modal" data-target="#test{{forloop.index0 | plus: 6}}">{{forloop.index0 | plus: 6}}</a>
+  <div class="truefalse modal fade" id="test{{forloop.index0 | plus: 6}}">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          {% if question.bonus == "yes" %}
+          {% if testQuestion.bonus == "yes" %}
             {% include bonusround.html %}
           {% endif %}
           <h4 class="title bg1">
             <span class="score" data-score="5">5</span> 
-            <span class="id">{{forloop.index0 | plus: 37}}.</span> 
+            <span class="id">{{forloop.index0 | plus: 6}}.</span> 
             <span class="type">True of False</span>
           </h4>
           <p class="question clearfix">
-            {% if question.img %}
-              <img src="img/soal/{{question.img}}" class="pull-left">
+            {% if testQuestion.img %}
+              <img src="img/soal/{{testQuestion.img}}" class="pull-left">
             {% endif %}
-            {{question.question}}
+            {{testQuestion.question}}
           </p>
           <div class="hide">
-            {% if question.remarks %}
+            {% if testQuestion.remarks %}
               <span class="label label-success">Remarks: </span><br>
-              {{question.remarks}}
+              {{testQuestion.remarks}}
             {% endif %}
           </div>
           <ol class="multiplechoices">
-            {% for choice in question.choices%}
+            {% for choice in testQuestion.choices%}
               <label>
                 <input type="checkbox" value="" class="{{choice.class}}">
                 <span>{{choice.option}}</span>
@@ -203,28 +201,3 @@
   </div><!-- /.modal -->
   {% endfor %}
 </section>
-
-<div class="modal fade" id="bonus">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Bonus List</h4>
-      </div>
-      <div class="modal-body">
-        <div class="dice"></div>
-        <ol>
-          <li>Main satu giliran lagi</li>
-          <li>Ambil 1 kartu yang sudah dipakai dari tim sendiri</li>
-          <li>Reset score jadi 0 kalau score total minus</li>
-          <li>Unlock Mama Shop! / Bonus point 50% untuk soal ini</li>
-          <li>Ambil satu kartu random dari common card deck</li>
-          <li>Beri tim lain kesempatan untuk lempar dadu</li>
-        </ol>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->

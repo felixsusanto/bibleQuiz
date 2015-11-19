@@ -1,5 +1,5 @@
 $btn-size:65px;
-#last-round{
+#last-round, #testing{
   .modal-dialog{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
@@ -153,7 +153,8 @@ $btn-size:65px;
   }
 }
 
-#last-round .btnRound{
+#last-round .btnRound,
+#testing .btnRound{
   border-radius:50%;
   padding:0;
   line-height: $btn-size - 4;
@@ -164,7 +165,8 @@ $btn-size:65px;
   }
 }
 
-#last-round>br{
+#last-round>br, 
+#testing>br{
   @media(max-width:510px){
     display:none;
   }

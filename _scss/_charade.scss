@@ -1,12 +1,53 @@
-.circle{
-  position: relative;
-  width: 300px;
-  margin:0 auto;
-  margin-top: 20px;
-  #timer{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translateY(-50%) translateX(-50%);
+#charade{
+  .circle{
+    position: relative;
+    width: 300px;
+    margin:0 auto;
+    margin-top: 20px;
+    #timer{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform:translateY(-50%) translateX(-50%);
+    }
+  }
+
+  .carousel-control{
+    width: 50px;
+    
+    >.fa{
+      position: absolute;
+      top:50%;
+      transform:translateY(-50%);
+      color: $brand-success;
+      text-shadow:none;
+      font-size: 2em;
+    }
+    &.right, &.left{
+      background-image: none;
+    }
+    &.right>.fa{
+      right:15px;
+    }
+    &.left>.fa{
+      left: 15px;
+    }
+  }
+  
+  .carousel + .carousel{
+    margin-top: 20px;
+  }
+  
+  .item{
+    min-height:300px;
+    background:black;
+    span{
+      font-size:30px;
+      position: relative;
+      top:130px;
+    }
+  }
+  .category-title{
+    color:$brand-success;
   }
 }

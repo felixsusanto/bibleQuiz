@@ -101,7 +101,7 @@ $(document).ready(function(){
     console.log(result);
     $(".timeleft").countdown(deadline, function(event) {
       $(this).text(
-        event.strftime('%D days %H:%M:%S')
+        event.strftime('%H:%M:%S')
       );
     }).on("finish.countdown",function(e){
       $(this).text(

@@ -1,0 +1,6 @@
+#06
+- bonus: "yes"
+  question: 'An adult version of Altar boy/girl is called "Acolyte"'
+  choices:
+  - {option: "True", class: false}
+  - {option: "False", class: true}
