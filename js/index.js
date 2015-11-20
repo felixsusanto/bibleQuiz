@@ -98,7 +98,7 @@ $(document).ready(function(){
     accept: 'application/JSON'
   }).done(function(result){
     deadline = result[0].Foo; 
-    console.log(result);
+    //console.log(result);
     $(".timeleft").countdown(deadline, function(event) {
       $(this).text(
         event.strftime('%H:%M:%S')
@@ -120,6 +120,13 @@ $(document).ready(function(){
       $("#wrapper").removeClass('hidden-answer hide');
       $parent.remove();
       $(".control>a:first").click();
+    }
+  });
+
+  $('#password').keypress(function(e){
+    if(e.which==13){
+      e.preventDefault();
+      $('#submit').click();
     }
   });
 });

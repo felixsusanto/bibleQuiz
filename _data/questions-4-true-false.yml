@@ -20,32 +20,32 @@
   - {option: "Salah", class: true}
 - question: 'There are 6 chapters in the letter to the Galatians'
   choices:
-  - {option: "Benar", class: true}
-  - {option: "Salah", class: false}
+  - {option: "True", class: true}
+  - {option: "False", class: false}
 #41
 - bonus: "yes"
   question: 'Pope Francis once said this: "As the family goes, so goes the nation, and so goes the whole world in which we live"'
   choices:
-  - {option: "Benar", class: false}
-  - {option: "Salah", class: true}
+  - {option: "True", class: false}
+  - {option: "False", class: true}
 - question: 'Peter and John were the disciples who went ahead to prepare the passover meal for Jesus'
   choices:
-  - {option: "Benar", class: true}
-  - {option: "Salah", class: false}
+  - {option: "True", class: true}
+  - {option: "False", class: false}
 - question: 'Pope John Paul II was beatified by Pope Benedict XVI'
   choices:
-  - {option: "Benar", class: true}
-  - {option: "Salah", class: false}
+  - {option: "True", class: true}
+  - {option: "False", class: false}
 #44
 - bonus: "yes"
   question: 'Pope John Paul II once said in Redemptoris Missio: "Faith and reason are like two wings... "'
   choices:
-  - {option: "Benar", class: false}
-  - {option: "Salah", class: true}
+  - {option: "True", class: false}
+  - {option: "False", class: true}
 #45
 - bonus: "yes"
   question: 'The word "Messiah" means "Saviour"'
   choices:
-  - {option: "Benar", class: false}
-  - {option: "Salah", class: true}
+  - {option: "True", class: false}
+  - {option: "False", class: true}
   remarks: 'It means "Anointed one"'

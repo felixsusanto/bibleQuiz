@@ -4,7 +4,7 @@
   question: 'This flag Belongs to?'
   choices:
   - {option: 'Netherlands', class: false}
-  - {option: 'Luxembourg', class: true}
+  - {option: 'Luxembourg', class: false}
   - {option: 'Croatia', class: true}
   - {option: 'Paraguay', class: false}
 #05
