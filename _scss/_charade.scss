@@ -11,7 +11,13 @@
       transform:translateY(-50%) translateX(-50%);
     }
   }
-
+  input[type="checkbox"]{
+    display:none;
+  }
+  input[type="checkbox"].true:checked + span{
+    color:$brand-danger;
+    text-decoration: line-through;
+  } 
   .carousel-control{
     width: 50px;
     

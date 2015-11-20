@@ -12,7 +12,16 @@
     <div class="carousel-inner" role="listbox">
       {% for category in categories.category %}
       <div class="item {% if forloop.index == 1 %} active category-title{% endif %}">
-        <span>{{category.item}}</span>
+        {% if forloop.index == 1 %}
+          <span>{{category.item}}</span>
+        {% endif %}
+        {% if forloop.index != 1%}
+        <label>
+          <input type="checkbox" value="" class="true">
+          <span>{{category.item}}</span>
+        </label>
+        <div class="carousel-caption">{{forloop.index | minus:1}} of {{forloop.length | minus:1}}</div>
+        {% endif %}
       </div>
       {% endfor %} 
     </div>
